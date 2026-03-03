@@ -343,3 +343,19 @@ SWE-ABS is built on top of the following open-source projects:
 - **[mini-swe-agent](https://github.com/SWE-agent/mini-swe-agent)** — The lightweight agent framework used for test generation and augmentation. MIT License, Copyright (c) 2025 Kilian A. Lieret and Carlos E. Jimenez.
 - **[SWE-bench](https://github.com/princeton-nlp/SWE-bench)** — The software engineering benchmark harness used for evaluation. MIT License, Copyright (c) 2023 Carlos E Jimenez, John Yang, Alexander Wettig, Shunyu Yao, Kexin Pei, Ofir Press, Karthik R Narasimhan.
 - **[SWE-bench Pro](https://github.com/scaleapi/SWE-bench_Pro-os)** — Extended evaluation harness for long-horizon tasks. Copyright (c) Scale AI.
+
+---
+
+## Citation
+
+```bibtex
+@misc{yu2026sweabsadversarialbenchmarkstrengthening,
+      title={SWE-ABS: Adversarial Benchmark Strengthening Exposes Inflated Success Rates on Test-based Benchmark}, 
+      author={Boxi Yu and Yang Cao and Yuzhong Zhang and Liting Lin and Junjielong Xu and Zhiqing Zhong and Qinghua Xu and Guancheng Wang and Jialun Cao and Shing-Chi Cheung and Pinjia He and Lionel Briand},
+      year={2026},
+      eprint={2603.00520},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2603.00520}, 
+}
+```
