@@ -86,7 +86,7 @@ Verify: `python test/test_cross_package_imports.py` → `Total: 5/5 tests passed
 
 ---
 
-### HuggingFace Re-evaluation with SWE-ABS Data
+## HuggingFace Re-evaluation with SWE-ABS Data
 
 The SWE-ABS test patches are published on HuggingFace. You can use them to re-evaluate any coding agent without running the full SWE-ABS pipeline locally.
 
@@ -97,17 +97,14 @@ dataset = load_dataset('OpenAgentLab/SWE-Bench_Verified_ABS', split='test')
 
 Each instance contains the original SWE-bench fields. `test_patch` is replaced with the SWE-ABS-generated test patch; the original is preserved as `original_test_patch`.
 
-**Option A — Standard SWE-bench evaluation** (no code changes needed):
+<!-- **Option A — Full leaderboard re-evaluation** with `eval_agent_leaderboard.sh`: -->
 
 ```bash
-python -m swebench.harness.run_evaluation \
-    --dataset_name OpenAgentLab/SWE-Bench_Verified_ABS \
-    --predictions_path <path_to_predictions> \
-    --max_workers <num_workers> \
-    --run_id <run_id>
+cd swe-bench
+bash eval_agent_leaderboard.sh
 ```
 
-**Option B — Full leaderboard re-evaluation** with `eval_agent_leaderboard.sh`: pass the HuggingFace dataset name directly as `--predictions_test_path` instead of a local JSON file:
+Or with custom options:
 
 ```bash
 cd swe-bench
@@ -119,7 +116,17 @@ python -m swebench.runtest.run_evaluation_test \
     --max_workers 12 \
     --timeout 120
 ```
----
+
+<!-- **Option B — Standard SWE-bench evaluation**:
+
+```bash
+python -m swebench.harness.run_evaluation \
+    --dataset_name OpenAgentLab/SWE-Bench_Verified_ABS \
+    --predictions_path <path_to_predictions> \
+    --max_workers <num_workers> \
+    --run_id <run_id>
+```
+--- -->
 
 ## Running the Pipelines
 
