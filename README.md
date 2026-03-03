@@ -3,7 +3,7 @@
 [![Leaderboard](https://img.shields.io/badge/🏆_Leaderboard-Live-blue?style=for-the-badge)](https://openagenteval.github.io/SWE-ABS/)
 [![Dataset](https://img.shields.io/badge/🤗_SWE--Bench__Verified__ABS-HuggingFace-yellow?style=for-the-badge)](https://huggingface.co/datasets/OpenAgentLab/SWE-Bench_Verified_ABS)
 [![Dataset](https://img.shields.io/badge/🤗_SWE--bench__Pro--ABS-HuggingFace-yellow?style=for-the-badge)](https://huggingface.co/datasets/OpenAgentLab/SWE-bench_Pro-ABS)
-[![Paper](https://img.shields.io/badge/📄_Paper-arXiv-red?style=for-the-badge)](https://arxiv.org/abs/your-paper-id)
+[![Paper](https://img.shields.io/badge/📄_Paper-arXiv-red?style=for-the-badge)](https://arxiv.org/abs/2603.00520)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/r3wDPRPaS4)
 
